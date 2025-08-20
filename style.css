@@ -146,7 +146,6 @@ h1{
 
 .type{
     font-weight: 600;
-    
 }
 
 #element {
@@ -695,13 +694,13 @@ textarea :focus{
 }
 
 
-    @media (max-width: 767px) {
+    @media (max-width: 768px) {
         #ham {
             display: block;
             align-self: flex-end;
             z-index: 101;
         }
-
+		
 		h1{
 			font-size: 40px;
 			margin-bottom: 20px;
@@ -711,11 +710,17 @@ textarea :focus{
 		}
 		
 		h2 {
+            
             margin-block: 10px;
         }
 		
 		h4 {
 			font-size: 24px;
+		}
+		
+		.type{
+			font-weight: 600;
+			font-size: 18px;
 		}
     
         .first {
@@ -732,6 +737,8 @@ textarea :focus{
         #left {
             text-align: center;
         }
+    
+
     
         #social {
             justify-content: center;
@@ -875,3 +882,10 @@ textarea :focus{
 ::-webkit-scrollbar {
     width: 0px; /* Width of the scrollbar */
   }
+
+@media (max-width: 1100px) {
+	.type{
+		height: 120px;
+	}
+}
+
