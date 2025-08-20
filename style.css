@@ -701,6 +701,22 @@ textarea :focus{
             align-self: flex-end;
             z-index: 101;
         }
+
+		h1{
+			font-size: 40px;
+			margin-bottom: 20px;
+			margin-top: 10px;
+			line-height: 1.2;
+			letter-spacing:0.1cm;
+		}
+		
+		h2 {
+            margin-block: 10px;
+        }
+		
+		h4 {
+			font-size: 24px;
+		}
     
         .first {
             flex-direction: column-reverse;
@@ -715,11 +731,6 @@ textarea :focus{
     
         #left {
             text-align: center;
-        }
-    
-        h2 {
-            
-            margin-block: 10px;
         }
     
         #social {
